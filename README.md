@@ -1,5 +1,5 @@
 
-Exploring React Styled Components
+Exploring React Styled Componen
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
