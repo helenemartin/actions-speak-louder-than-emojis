@@ -17,3 +17,7 @@ Jumbotron.Container = function JumbotronContainer ({ children, ...restProps}) {
 Jumbotron.Title = function JumbotronTitle ({ children, ...restProps}) {
     return <Title {...restProps}>{children}</Title>;
 }
+
+Jumbotron.SubTitle = function JumbotronSubTitle ({ children, ...restProps}) {
+    return <SubTitle {...restProps}>{children}</SubTitle>;
+}
