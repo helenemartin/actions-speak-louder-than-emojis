@@ -1,8 +1,14 @@
 import React from 'react';
 import Jumbotron from '../components/jumbotron';
 
-export default function Home() {
+export default () => {
     return (
-        <Jumbotron />
+        <Jumbotron.Container>
+            <Jumbotron.Title>Hello</Jumbotron.Title>
+        </Jumbotron.Container>
     )
 }
+
+        
+       
+
