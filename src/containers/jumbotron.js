@@ -5,12 +5,13 @@ import Jumbotron from '../components/jumbotron';
 export function JumbotronContainer() {
     return(
         <Jumbotron.Container>
-        {jumboData.map(() => (
-            <Jumbotron>
-                <Jumbotron.Title>Hello</Jumbotron.Title>
-                <Jumbotron.SubTitle>Hello</Jumbotron.SubTitle>
-            </Jumbotron>
-        ))}
+            {jumboData.map((item) => (
+                <Jumbotron key={item.id} direction={item.direction}>
+                    <Jumbotron.Title>{item.title}</Jumbotron.Title>
+                    <Jumbotron.SubTitle>{item.subTitle}</Jumbotron.SubTitle>
+                    <Jumbotron.Image src={item.image} alt={item.alt} />
+                </Jumbotron>
+            ))}
         </Jumbotron.Container>
     )
 }
