@@ -24,6 +24,7 @@ export function FooterContainer() {
                     <Footer.Link href="#">Sign-up</Footer.Link>
                 </Footer.Column>
             </Footer.Row>
+            <Footer.Text>Pretty 🙏</Footer.Text>
         </Footer>
     )
 }
