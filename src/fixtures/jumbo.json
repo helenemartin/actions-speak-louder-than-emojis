@@ -1,26 +1,26 @@
 [
     {
       "id": 1,
-      "title": "Enjoy on your TV.",
-      "subTitle": "Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.",
-      "image": "/images/misc/home-tv.jpg",
-      "alt": "Tiger King on Netflix",
+      "title": "Jean Seberg",
+      "subTitle": "Enjoy the crop look, put your favorite lipstick on",
+      "image": "/images/Jean-Seberg.jpg",
+      "alt": "Jean Seberg crop hair cut",
       "direction": "row"
     },
     {
       "id": 2,
-      "title": "Download your programmes to watch on the go.",
-      "subTitle": "Save your data and watch all your favourites offline.",
-      "image": "/images/misc/home-mobile.jpg",
-      "alt": "Tiger King on Netflix",
+      "title": "Seberg...",
+      "subTitle": "Such a darling from the twenties, Weimar Republic",
+      "image": "/images/jeanS.jpg",
+      "alt": "Dolly Haas Gamine look",
       "direction": "row-reverse"
     },
     {
       "id": 3,
-      "title": "Watch everywhere.",
-      "subTitle": "Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.",
-      "image": "/images/misc/home-imac.jpg",
-      "alt": "Money Heist on Netflix",
+      "title": "Jean",
+      "subTitle": "Another View from Jean Seberg Iconic look",
+      "image": "/images/jean-seberg-2.jpg",
+      "alt": "Jean Seberg Crop hair",
       "direction": "row"
     }
   ]
