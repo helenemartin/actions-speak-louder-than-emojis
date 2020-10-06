@@ -4,7 +4,12 @@ import { Footer } from '../components';
 export function FooterContainer() {
     return (
         <Footer>
-            Hello
+            <Footer.Title>Questions? Contact us.</Footer.Title>
+            <Footer.Row>
+                <Footer.Column>
+                    <Footer.Link href="#">FAQs</Footer.Link>
+                </Footer.Column>
+            </Footer.Row>
         </Footer>
     )
 }
