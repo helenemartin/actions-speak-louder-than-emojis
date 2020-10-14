@@ -1,9 +1,11 @@
-import React, {useState} from 'react';
+import styled from 'styled-components';
 
-export default function Accordion({ children, ...restProps }) {
-    return (
-        <Container {...restProps}>
-            <Inner>{children}</Inner>
-        </Container>
-    )
-}
+export const Container = styled.section``;
+
+export const Inner = styled.div``;
+
+export const Title = styled.h1``;
+
+export const Header = styled.div``;
+
+export const Body = styled.body``;
