@@ -25,6 +25,7 @@ export function FooterContainer() {
                 </Footer.Column>
             </Footer.Row>
             <Footer.Text>Pretty 🙏</Footer.Text>
+            <Footer.Text></Footer.Text>
         </Footer>
     )
 }

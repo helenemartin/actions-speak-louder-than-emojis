@@ -25,7 +25,7 @@ export const Pane = styled.div`;
 
 export const Item = styled.div`;
     display: flex;
-
+    padding-bottom: 100px;
 `;
 
 export const Container = styled.div`;
@@ -33,7 +33,7 @@ export const Container = styled.div`;
 
     @media (max-width: 1000px) {
         ${Item}:last-of-type h2 {
-            margin-bottom: 50px;
+            margin-bottom: 100px;
         }
     }
     
@@ -50,8 +50,9 @@ export const Title = styled.h1`;
 `;
 
 export const SubTitle = styled.h2`;
-    font-size: 26 px;
-    font-weight: normal;
+    font-family: 'Helvetica', Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 100;
     line-height: normal;
 
     @media (max-width: 600px) {
@@ -62,6 +63,7 @@ export const SubTitle = styled.h2`;
 export const Image = styled.img`;
     max-width: 100%;
     height: auto;
+
 `;
 
 
