@@ -17,6 +17,8 @@ export function FaqsContainer() {
 
       <OptForm>
         <OptForm.Input placeholder="Email Address" />
+        <OptForm.Button></OptForm.Button>
+        <OptForm.Text>join the movement</OptForm.Text>
       </OptForm>
     </Accordion>
   );
