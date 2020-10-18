@@ -46,6 +46,7 @@ export const Header = styled.div`
   padding: 0.8em 1.2em 0.8em 1.2em;
   user-select: none;
   align-items: center;
+  width: 100%;
 
   @media (max-width: 600px) {
     font-size: 16px;
@@ -63,6 +64,7 @@ export const Body = styled.body`
   padding: 0.8em 1.2em 0.8em 1.2em;
   user-select: none;
   align-items: center;
+  width: 100%;
 
   @media (max-width: 600px) {
     font-size: 16px;
