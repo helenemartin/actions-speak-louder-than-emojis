@@ -3,12 +3,12 @@ import { Card } from "../components";
 
 export function CardContainer() {
   return (
-      {movies.map(movie => (
+    <Card.Container>
+      {movies.map(movies => (
         <Card>
-            Card.Image src={movie.image} alt={movie.title) />
-            </Card>
-        
-    ))}
-     
+          <Card.Image src={movie.image} alt={item.alt} />
+        </Card>
+      ))}
+    </Card.Container>
   );
 }
