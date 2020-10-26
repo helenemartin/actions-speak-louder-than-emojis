@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "../components";
+import movies from "../fixtures/movie.json";
 
 export function CardContainer() {
   return (
