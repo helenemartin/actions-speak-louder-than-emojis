@@ -1,15 +1,20 @@
 import React from "react";
-import { Card } from "../components";
-import movies from "../fixtures/movie.json";
+import Card from "../components/card";
+import cardData from "../fixtures/movie.json";
 
 export function CardContainer() {
   return (
-    <Card.Container>
-      {movies.map(movies => (
-        <Card>
-          <Card.Image src={movie.image} alt={item.alt} />
+    <CardContainer>
+      {cardData.map(movie => (
+        <Card key={movie.id}>
+          <Card.Image src={movie.image} alt={movie.title} />
+          <Card.Body>
+            <Card.Title>{movie.title}</Card.Title>
+            <Card.Text>{movie.desc}</Card.Text>
+            <Card.Button>{movie.ctaText}</Card.Button>
+          </Card.Body>
         </Card>
       ))}
-    </Card.Container>
+    </CardContainer>
   );
 }
