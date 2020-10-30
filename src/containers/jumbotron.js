@@ -1,7 +1,6 @@
 import React from "react";
 import jumboData from "../fixtures/jumbo.json";
 import Jumbotron from "../components/jumbotron";
-import Emoji from "../components/emoji/EmojiWrapper";
 
 export function JumbotronContainer() {
   return (
@@ -15,9 +14,9 @@ export function JumbotronContainer() {
           <Jumbotron.Pane>
             <Jumbotron.Image src={item.image} alt={item.alt} />
           </Jumbotron.Pane>
-          <Emoji label="Please" symbol="🙏" size="3rem" />
         </Jumbotron>
       ))}
+      <Jumbotron.Emoji label="Please" symbol="🙏" size="3rem" />
     </Jumbotron.Container>
   );
 }
