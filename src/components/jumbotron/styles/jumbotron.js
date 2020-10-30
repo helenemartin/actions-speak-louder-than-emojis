@@ -66,4 +66,5 @@ export const Image = styled.img`
 `;
 export const Emoji = styled(EmojiWrapper)`
   font-size: ${({ size }) => (size ? size : "1rem")};
+  margin: 50px 100px;
 `;
