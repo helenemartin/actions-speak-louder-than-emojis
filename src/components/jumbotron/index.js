@@ -7,7 +7,8 @@ import {
   SubTitle,
   Pane,
   Image,
-  Emoji
+  Emoji,
+  EmojiButton
 } from "./styles/jumbotron";
 
 export default function Jumbotron({
@@ -44,4 +45,8 @@ Jumbotron.Image = function JumbotronImage({ ...restProps }) {
 
 Jumbotron.Emoji = function JumbotronEmoji({ ...restProps }) {
   return <Emoji {...restProps} />;
+};
+
+Jumbotron.EmojiButton = function JumbotronEmojiButton({ ...restProps }) {
+  return <EmojiButton {...restProps} />;
 };

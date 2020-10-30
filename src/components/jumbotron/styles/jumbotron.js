@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import EmojiWrapper from "../../../components/emoji/EmojiWrapper";
+import AriaDiv from "../../../components/emoji/EmojiButton";
 
 export const Inner = styled.div`
   display: flex;
@@ -67,4 +68,16 @@ export const Image = styled.img`
 export const Emoji = styled(EmojiWrapper)`
   font-size: ${({ size }) => (size ? size : "1rem")};
   margin: 50px 100px;
+`;
+
+export const EmojiButton = styled(AriaDiv)`
+padding: 3rem;
+margin: 1rem;
+background-color;
+width: fit-content;
+cursor: pointer;
+transition: box-shaddow 0.3s ease;
+&:hover {
+    box-shadow 0px 4px 10px rgba (26, 30, 33, 0.2);
+}
 `;

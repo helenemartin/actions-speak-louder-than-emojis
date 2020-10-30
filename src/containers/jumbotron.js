@@ -16,7 +16,9 @@ export function JumbotronContainer() {
           </Jumbotron.Pane>
         </Jumbotron>
       ))}
-      <Jumbotron.Emoji label="Please" symbol="💅" size="6rem" />
+      <Jumbotron.EmojiButton>
+        <Jumbotron.Emoji label="Please" symbol="💅" size="6rem" />
+      </Jumbotron.EmojiButton>
     </Jumbotron.Container>
   );
 }
