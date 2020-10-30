@@ -10,7 +10,6 @@ export default function Home() {
       <JumbotronContainer />
       <CardContainer />
       <FaqsContainer />
-      <CardContainer />
       <FooterContainer />
     </>
   );
