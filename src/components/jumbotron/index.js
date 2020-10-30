@@ -43,5 +43,5 @@ Jumbotron.Image = function JumbotronImage({ ...restProps }) {
 };
 
 Jumbotron.Emoji = function JumbotronEmoji({ ...restProps }) {
-  return <Image {...restProps} />;
+  return <Emoji {...restProps} />;
 };

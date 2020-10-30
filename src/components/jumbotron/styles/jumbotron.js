@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import EmojiWrapper from "./components/emoji/EmojiWrapper";
+import EmojiWrapper from "../components/emoji/EmojiWrapper";
 
 export const Inner = styled.div`
   display: flex;
