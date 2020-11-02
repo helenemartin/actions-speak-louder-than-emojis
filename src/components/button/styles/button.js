@@ -6,7 +6,7 @@ export const StyledButton = styled.button`
   background-color: white;
   color: palevioletred;
   font-size: 1.2rem;
-  margin: 1rem;
+  margin: ${({ margin }) => margin || '2rem'};
   padding: 0.5 rem 1rem;
   border: 1px solid palevioletred;
   border-radius: 3px;
@@ -23,7 +23,7 @@ export const SuperButton = styled(StyledButton)`
     font-size: 2.5rem;
 `;
 
-export const Button = {{ primary, children }} => {
+export const Button = {{ primary, margin, children }} => {
     return <StyledButton primary = {primary}>{children}</Syledbutton>;
 };
 
