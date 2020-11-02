@@ -72,9 +72,11 @@ export const Emoji = styled(EmojiWrapper)`
 
 export const EmojiButton = styled(AriaDiv)`
 display: flex;
-padding: 3rem;
+padding: 1rem;
 margin: 1rem;
 background-color:coral;
+opacity:0.5;
+z-index: -1;
 width: fit-content;
 cursor: pointer;
 transition: box-shaddow 0.6s ease;
