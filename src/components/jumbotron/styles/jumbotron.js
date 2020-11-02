@@ -84,3 +84,5 @@ transition: box-shaddow 0.6s ease;
     box-shadow 0px 4px 10px rgba (26, 30, 33, 0.2);
 }
 `;
+
+export const [emojiQueue, setEmojiQueue] = useState([]);
