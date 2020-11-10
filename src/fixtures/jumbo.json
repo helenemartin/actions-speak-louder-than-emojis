@@ -1,27 +1,26 @@
 [
-    {
-      "id": 1,
-      "title": "Jean Seberg",
-      "subTitle": "💅🏻 🙏🏻",
-      "image": "/images/Jean-Seberg.jpg",
-      "alt": "Jean Seberg crop hair cut",
-      "direction": "row"
-    },
-    {
-      "id": 2,
-      "title": "Seberg...",
-      "subTitle": "Such a darling lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis lorem velit. In et libero purus. Curabitur at bibendum eros. Pellentesque aliquet lectus tortor, id iaculis metus aliquet quis. Donec posuere consequat sodales. Maecenas posuere, sem a consequat auctor, ipsum nulla convallis mi, sit amet commodo lectus ipsum et tortor. Maecenas at maximus ex. Aliquam finibus auctor tincidunt.",
-      "image": "/images/jeanS.jpg",
-      "alt": "Dolly Haas Gamine look",
-      "direction": "row-reverse"
-    },
-    {
-      "id": 3,
-      "title": "Jean",
-      "subTitle": "Another View from Jean Seberg Iconic pixie haircut",
-      "image": "/images/jean-seberg-2.jpg",
-      "alt": "Jean Seberg Crop hair",
-      "direction": "row"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Jean Seberg",
+    "subTitle": "💅🏻 🙏🏻",
+    "image": "/images/Jean-Seberg.jpg",
+    "alt": "Jean Seberg crop hair cut",
+    "direction": "column-reverse"
+  },
+  {
+    "id": 2,
+    "title": "Seberg...",
+    "subTitle": "Such a darling lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis lorem velit. In et libero purus. Curabitur at bibendum eros. Pellentesque aliquet lectus tortor, id iaculis metus aliquet quis. Donec posuere consequat sodales. Maecenas posuere, sem a consequat auctor, ipsum nulla convallis mi, sit amet commodo lectus ipsum et tortor. Maecenas at maximus ex. Aliquam finibus auctor tincidunt.",
+    "image": "/images/jeanS.jpg",
+    "alt": "Dolly Haas Gamine look",
+    "direction": "column-reverse"
+  },
+  {
+    "id": 3,
+    "title": "Jean",
+    "subTitle": "Another View from Jean Seberg Iconic pixie haircut",
+    "image": "/images/jean-seberg-2.jpg",
+    "alt": "Jean Seberg Crop hair",
+    "direction": "row"
+  }
+]

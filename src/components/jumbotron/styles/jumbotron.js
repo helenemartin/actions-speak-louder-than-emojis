@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import EmojiWrapper from "../../../components/emoji/EmojiWrapper";
 import AriaDiv from "../../../components/emoji/EmojiButton";
+import EmojiBubble from "../../../components/emoji/EmojiBubble";
 
 export const Inner = styled.div`
   display: flex;
@@ -80,9 +81,7 @@ z-index: -1;
 width: fit-content;
 cursor: pointer;
 transition: box-shaddow 0.6s ease;
-&:hover {
-    box-shadow 0px 4px 10px rgba (26, 30, 33, 0.2);
-}
+  &:hover {
+      box-shadow 0px 4px 10px rgba (26, 30, 33, 0.2);
+  }
 `;
-
-export const [emojiQueue, setEmojiQueue] = useState([]);
