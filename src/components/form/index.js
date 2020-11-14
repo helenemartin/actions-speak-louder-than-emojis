@@ -1,12 +1,12 @@
 import React from "react";
 import {
   Container,
+  Error,
   Base,
   Title,
   Text,
   TextSmall,
   Link,
-  Error,
   Input,
   Submit
 } from "./styles/form";
@@ -34,6 +34,7 @@ Form.TextSmall = function FormTextSmall({ children, ...restProps }) {
 Form.Link = function FormLink({ children, ...restProps }) {
   return <Link {...restProps}>{children}</Link>;
 };
+
 Form.Error = function FormError({ children, ...restProps }) {
   return <Error {...restProps}>{children}</Error>;
 };
@@ -42,6 +43,6 @@ Form.Input = function FormInput({ children, ...restProps }) {
   return <Input {...restProps}>{children}</Input>;
 };
 
-Form.Submit = function FormError({ children, ...restProps }) {
+Form.Submit = function FormSubmit({ children, ...restProps }) {
   return <Submit {...restProps}>{children}</Submit>;
 };
