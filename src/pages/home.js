@@ -10,19 +10,14 @@ export default function Home() {
     <>
       <HeaderContainer>
         <Feature>
-          <Feature.Title>
-            Unlimited films, TV programmes and more.
-          </Feature.Title>
-          <Feature.SubTitle>
-            Watch anywhere. Cancel at any time.
-          </Feature.SubTitle>
+          <Feature.Title>Actions speak louder than emojis</Feature.Title>
+          <Feature.SubTitle>meaning will find you in the end</Feature.SubTitle>
           <OptForm>
             <OptForm.Input placeholder="Email Address" />
-            <OptForm.Button>Try it now</OptForm.Button>
+            <OptForm.Button></OptForm.Button>
             <OptForm.Break />
             <OptForm.Text>
-              Ready to watch? Enter your email to create or restart your
-              membership.
+              Enter your email to create or restart your membership.
             </OptForm.Text>
           </OptForm>
         </Feature>

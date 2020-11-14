@@ -38,7 +38,8 @@ export default function Signin() {
           </Form.Submit>
 
           <Form.Text>
-            New to Netflix? <Form.Link to="/signup">Sign up now.</Form.Link>
+            Ready for meaningful actions?{" "}
+            <Form.Link to="/signup">Sign up now.</Form.Link>
           </Form.Text>
           <Form.TextSmall>
             This page is protected by Google reCAPTCHA.
