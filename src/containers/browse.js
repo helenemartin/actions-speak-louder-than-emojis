@@ -41,6 +41,14 @@ export function BrowseContainer() {
           </Header.Group>
         </Header.Frame>
       </Header>
+      <Header.Feature>
+        <Header.FeatureCallOut>Watch Poker Now</Header.FeatureCallOut>
+        <Header.Text>
+          Forever alone at home, shield yourself from futile attempts to feel
+          like part of the world, play poker.
+        </Header.Text>
+        <Header.PlayButton>Play</Header.PlayButton>
+      </Header.Feature>
       <FooterContainer />
     </>
   ) : (
