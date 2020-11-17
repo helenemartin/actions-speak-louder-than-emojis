@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Loading, Header } from "../components";
 import * as ROUTES from "../constants/routes";
 import { FirebaseContext } from "../context/firebase";
@@ -8,6 +8,7 @@ import { FooterContainer } from "./footer";
 export function BrowseContainer() {
   const [category, setCategory] = useState("series");
   const [profile, setProfile] = useState({});
+  const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
 
   const { firebase } = useContext(FirebaseContext);
@@ -16,6 +17,12 @@ export function BrowseContainer() {
     displayName: "LN",
     photoURL: "portrait"
   };
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, [user]);
 
   return profile.displayName ? (
     <>
