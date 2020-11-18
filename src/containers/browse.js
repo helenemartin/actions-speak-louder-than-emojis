@@ -15,7 +15,7 @@ export function BrowseContainer() {
 
   const user = {
     displayName: "LN",
-    photoURL: "portrait"
+    photoURL: "dolly-haas"
   };
 
   useEffect(() => {

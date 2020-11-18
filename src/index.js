@@ -11,10 +11,11 @@ const config = {
   projectId: "actions-louder-than-emojis",
   storageBucket: "actions-louder-than-emojis.appspot.com",
   messagingSenderId: "490570570237",
-  appId: "1:490570570237:web:33592bba84ba0b14726194"
+  appId: "1:490570570237:web:33592bba84ba0b14726194",
+  measurementId: "G-BG8G0EN9ST"
 };
 
-const firebase = window.firebase.initializeApp(config);
+window.firebase.initializeApp(config);
 
 ReactDom.render(
   <>
