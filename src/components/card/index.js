@@ -9,6 +9,7 @@ import {
   Feature,
   FeatureTitle,
   FeatureClose,
+  FeatureText,
   Maturity,
   Content,
   Meta,
