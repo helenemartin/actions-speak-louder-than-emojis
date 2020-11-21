@@ -21,7 +21,7 @@ export default function selectionMap({ series, films }) {
     ],
     films: [
       {
-        title: "Drama Good",
+        title: "Drama",
         data: films.filter(item => item.genre === "drama")
       },
       {
