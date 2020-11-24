@@ -18,15 +18,23 @@ export function App() {
         >
           <Signin />
         </IsUserRedirect>
-        <Route path={ROUTES.SIGN_UP}>
+        <IsUserRedirect
+          user={user}
+          loggedInPath={ROUTES.BROWSE}
+          path={ROUTES.SIGN_UP}
+        >
           <Signup />
-        </Route>
-        <Route path={ROUTES.BROWSE}>
+        </IsUserRedirect>
+        <ProtectedRoute user={user} path={ROUTES.BROWSE}>
           <Browse />
-        </Route>
-        <Route path={ROUTES.HOME}>
+        </ProtectedRoute>
+        <IsUserRedirect
+          user={user}
+          loggedInPath={ROUTES.BROWSE}
+          path={ROUTES.HOME}
+        >
           <Home />
-        </Route>
+        </IsUserRedirect>
       </Switch>
     </Router>
   );
